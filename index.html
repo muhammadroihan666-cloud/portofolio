@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Roihan | Hospitality & Guest Relations Specialist</title>
+  <meta name="description" content="Portfolio of Muhammad Roihan - Hospitality & Front Office Specialist, English Education Graduate (GPA 3.61, TOEFL 557) with expertise in personalized guest services and persuasive communication.">
+  <meta name="keywords" content="Muhammad Roihan, Hospitality, Front Office, Reservation Agent, Guest Relations, English Education, Cianjur, Hotel Portfolio">
+  <meta name="author" content="Muhammad Roihan">
+
+  <!-- OpenGraph / Social Meta Tags -->
+  <meta property="og:title" content="Muhammad Roihan | Hospitality & Guest Relations Portfolio">
+  <meta property="og:description" content="Front Office & Guest Relations Specialist | English Education Graduate (GPA 3.61, TOEFL 557). Explore interactive hospitality scenarios and resume.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/profile_photo.jpg">
+
+  <!-- Favicon / Monogram -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230b1325'/><text x='50%' y='62%' font-size='50' font-weight='bold' fill='%23c5a059' text-anchor='middle' font-family='serif'>MR</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Reading Progress Bar -->
+  <div id="scroll-progress" class="scroll-progress"></div>
+
+  <!-- Announcement / Availability Banner -->
+  <div class="top-banner">
+    <div class="container banner-inner">
+      <span class="pulse-indicator"></span>
+      <span class="banner-status-text" data-i18n="banner-status">Actively seeking opportunities in Hospitality: Front Office, Reservation Agent & Guest Relations</span>
+      <a href="#contact" class="banner-link" data-i18n="banner-cta">Hire Me <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <div class="logo-emblem">MR</div>
+        <div class="brand-text">
+          <span class="brand-name">Muhammad Roihan</span>
+          <span class="brand-sub" data-i18n="brand-title">Hospitality & Guest Relations</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#about" class="nav-item" data-i18n="nav-about">About</a>
+        <a href="#experience" class="nav-item" data-i18n="nav-experience">Experience</a>
+        <a href="#simulator" class="nav-item" data-i18n="nav-simulator">Service Simulator</a>
+        <a href="#education" class="nav-item" data-i18n="nav-education">Education & Research</a>
+        <a href="#skills" class="nav-item" data-i18n="nav-skills">Skills & Credentials</a>
+        <a href="#contact" class="nav-item" data-i18n="nav-contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Language Switcher -->
+        <button id="lang-toggle" class="btn-icon" title="Switch Language" aria-label="Switch Language">
+          <i class="fa-solid fa-globe"></i>
+          <span id="current-lang-text" class="lang-text">EN</span>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="btn-icon" title="Toggle Theme" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon" id="theme-icon"></i>
+        </button>
+
+        <!-- CV Button -->
+        <a href="assets/Muhammad_Roihan_CV.pdf" target="_blank" download="Muhammad_Roihan_CV.pdf" class="btn btn-gold btn-sm cv-btn">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span data-i18n="btn-cv">CV PDF</span>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Open Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-glow"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fa-solid fa-hotel"></i>
+            <span data-i18n="hero-badge">Luxury Hospitality & Guest Service</span>
+          </div>
+          
+          <h1 class="hero-title">
+            <span class="greeting" data-i18n="hero-greeting">Welcoming Excellence,</span>
+            <span class="name-highlight">Muhammad Roihan</span>
+          </h1>
+
+          <p class="hero-tagline" data-i18n="hero-tagline">
+            English Education Graduate (GPA 3.61, TOEFL 557) specialized in personalized guest handling, international communication, and front-office service etiquette.
+          </p>
+
+          <!-- Audio Voice Intro Feature -->
+          <div class="voice-intro-box">
+            <button id="play-voice-btn" class="voice-btn">
+              <i class="fa-solid fa-volume-high" id="voice-icon"></i>
+              <span id="voice-btn-text" data-i18n="voice-play">Listen to Audio Introduction</span>
+            </button>
+            <span class="voice-status" id="voice-status" data-i18n="voice-status-ready">Bilingual audio powered by speech synthesis</span>
+          </div>
+
+          <!-- Hero Metrics / Badges -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-value">3.61<span class="stat-max">/4.0</span></div>
+              <div class="stat-label" data-i18n="stat-gpa">Academic GPA</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <div class="stat-value">557</div>
+              <div class="stat-label" data-i18n="stat-toefl">TOEFL Score</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <div class="stat-value" data-i18n="stat-bilingual">Bilingual</div>
+              <div class="stat-label" data-i18n="stat-languages">English & Indonesian</div>
+            </div>
+          </div>
+
+          <!-- Hero Buttons -->
+          <div class="hero-cta-group">
+            <a href="#simulator" class="btn btn-gold">
+              <i class="fa-solid fa-bell-concierge"></i>
+              <span data-i18n="hero-cta-sim">Try Service Simulator</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-solid fa-envelope"></i>
+              <span data-i18n="hero-cta-contact">Connect With Me</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="profile-frame">
+              <div class="frame-border-accent"></div>
+              <img src="assets/profile_photo.jpg" alt="Muhammad Roihan - Hospitality Professional" class="profile-img">
+              <div class="online-badge">
+                <span class="status-dot"></span>
+                <span data-i18n="hero-status">Ready for Service</span>
+              </div>
+            </div>
+
+            <!-- Floating Highlights Cards -->
+            <div class="floating-pill pill-top">
+              <div class="pill-icon"><i class="fa-solid fa-award"></i></div>
+              <div class="pill-text">
+                <strong data-i18n="pill-top-title">Front Office Focus</strong>
+                <span data-i18n="pill-top-sub">Reservation & Guest Relations</span>
+              </div>
+            </div>
+
+            <div class="floating-pill pill-bottom">
+              <div class="pill-icon"><i class="fa-solid fa-comments"></i></div>
+              <div class="pill-text">
+                <strong data-i18n="pill-bot-title">Pragmatic Communication</strong>
+                <span data-i18n="pill-bot-sub">Persuasive & Empathic</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT & VALUE PROPOSITION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle" data-i18n="about-subtitle">Professional Profile</span>
+          <h2 class="section-title" data-i18n="about-title">About Muhammad Roihan</h2>
+          <div class="title-underline"></div>
+          <p class="section-lead" data-i18n="about-lead">
+            Bridging linguistic mastery, emotional intelligence, and meticulous hospitality standards to deliver memorable guest experiences.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-bio-card">
+            <h3 class="bio-heading">
+              <i class="fa-solid fa-quote-left quote-icon"></i>
+              <span data-i18n="about-bio-title">Dedicated to 5-Star Guest Delight</span>
+            </h3>
+            <p class="bio-text" data-i18n="about-bio-p1">
+              A motivated English Education graduate with strong communication skills and extensive experience in personalized client service and guest interaction. Throughout my previous roles, I developed the ability to assist clients with professionalism, active listening, and a service-oriented attitude.
+            </p>
+            <p class="bio-text" data-i18n="about-bio-p2">
+              I am confident interacting with diverse individuals, including international guests, consistently maintaining a polite, approachable, and professional demeanor. My objective is to contribute to hospitality excellence as a Reservation Agent, Front Desk Agent, or Guest Relations Officer in an esteemed hotel environment.
+            </p>
+
+            <div class="bio-details-list">
+              <div class="bio-detail-item">
+                <i class="fa-solid fa-location-dot detail-icon"></i>
+                <div>
+                  <span class="detail-label" data-i18n="bio-loc-label">Location:</span>
+                  <span class="detail-val">Cianjur, West Java, Indonesia (Open to Relocation)</span>
+                </div>
+              </div>
+              <div class="bio-detail-item">
+                <i class="fa-solid fa-graduation-cap detail-icon"></i>
+                <div>
+                  <span class="detail-label" data-i18n="bio-edu-label">Education:</span>
+                  <span class="detail-val">B.Ed. English Education (GPA: 3.61/4.00)</span>
+                </div>
+              </div>
+              <div class="bio-detail-item">
+                <i class="fa-solid fa-certificate detail-icon"></i>
+                <div>
+                  <span class="detail-label" data-i18n="bio-lang-label">Languages:</span>
+                  <span class="detail-val">English (TOEFL 557) & Bahasa Indonesia (Native)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pillars-container">
+            <div class="pillar-card">
+              <div class="pillar-icon-box">
+                <i class="fa-solid fa-heart-pulse"></i>
+              </div>
+              <div class="pillar-content">
+                <h4 data-i18n="pillar1-title">Personalized Guest Handling</h4>
+                <p data-i18n="pillar1-desc">
+                  Tailoring every interaction to individual guest preferences, anticipating needs, and maintaining calm emotional composure across high-pressure peak hours.
+                </p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon-box">
+                <i class="fa-solid fa-language"></i>
+              </div>
+              <div class="pillar-content">
+                <h4 data-i18n="pillar2-title">International & Bilingual Fluency</h4>
+                <p data-i18n="pillar2-desc">
+                  Providing clear, warm, and articulate communication in English (TOEFL 557) and Indonesian, welcoming diverse global travelers seamlessly.
+                </p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon-box">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div class="pillar-content">
+                <h4 data-i18n="pillar3-title">Pragmatic Communication Insights</h4>
+                <p data-i18n="pillar3-desc">
+                  Underpinned by thesis research in linguistic pragmatics and persuasion, effectively applying positive framing, de-escalation, and brand storytelling.
+                </p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon-box">
+                <i class="fa-solid fa-bell-concierge"></i>
+              </div>
+              <div class="pillar-content">
+                <h4 data-i18n="pillar4-title">Professional Hospitality Etiquette</h4>
+                <p data-i18n="pillar4-desc">
+                  Strict adherence to grooming standards, courteous greeting protocols, telephone etiquette, and guest privacy standards.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE FRONT OFFICE SIMULATOR (FEATURE HIGHLIGHT) -->
+    <section class="section simulator-section" id="simulator">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle" data-i18n="sim-subtitle">Interactive Experience</span>
+          <h2 class="section-title" data-i18n="sim-title">Front Office Hospitality Simulator</h2>
+          <div class="title-underline"></div>
+          <p class="section-lead" data-i18n="sim-lead">
+            Select a guest scenario below to experience how Muhammad Roihan resolves challenges, creates rapport, and applies 5-star service principles.
+          </p>
+        </div>
+
+        <div class="simulator-wrapper">
+          <!-- Scenario Tabs -->
+          <div class="sim-tabs" role="tablist">
+            <button class="sim-tab active" data-scenario="vip" role="tab" aria-selected="true">
+              <i class="fa-solid fa-plane-arrival"></i>
+              <span data-i18n="sim-tab-1">1. VIP Early Arrival</span>
+            </button>
+            <button class="sim-tab" data-scenario="discrepancy" role="tab" aria-selected="false">
+              <i class="fa-solid fa-clipboard-check"></i>
+              <span data-i18n="sim-tab-2">2. Reservation Request</span>
+            </button>
+            <button class="sim-tab" data-scenario="cultural" role="tab" aria-selected="false">
+              <i class="fa-solid fa-compass"></i>
+              <span data-i18n="sim-tab-3">3. Local Cultural Concierge</span>
+            </button>
+            <button class="sim-tab" data-scenario="pragmatics" role="tab" aria-selected="false">
+              <i class="fa-solid fa-bullhorn"></i>
+              <span data-i18n="sim-tab-4">4. Persuasive Digital Branding</span>
+            </button>
+          </div>
+
+          <!-- Scenario Card Viewport -->
+          <div class="sim-display-card" id="sim-display-card">
+            <div class="sim-badge" id="sim-category">VIP Guest Relations</div>
+            <h3 class="sim-scenario-title" id="sim-scenario-title">International Guest Arrives 4 Hours Before Check-in</h3>
+            
+            <div class="sim-context-box">
+              <div class="context-label"><i class="fa-solid fa-triangle-exclamation"></i> <span data-i18n="sim-context-lbl">The Challenge:</span></div>
+              <p class="context-desc" id="sim-context-desc">
+                An international business executive lands on an early flight at 10:00 AM. Their suite is being prepared by housekeeping. The guest appears exhausted and has an upcoming afternoon meeting.
+              </p>
+            </div>
+
+            <div class="sim-solution-box">
+              <div class="solution-label"><i class="fa-solid fa-user-tie"></i> <span data-i18n="sim-solution-lbl">Muhammad Roihan's Action Plan:</span></div>
+              <div class="sim-steps" id="sim-steps">
+                <!-- Dynamically injected steps -->
+              </div>
+            </div>
+
+            <!-- Framework Applied & Outcome -->
+            <div class="sim-footer-meta">
+              <div class="sim-metric-item">
+                <span class="meta-label" data-i18n="sim-framework-lbl">Applied Hospitality Framework:</span>
+                <span class="meta-val" id="sim-framework-val">Proactive Care & H.E.A.T. Method</span>
+              </div>
+              <div class="sim-metric-item">
+                <span class="meta-label" data-i18n="sim-outcome-lbl">Guest Impact:</span>
+                <span class="meta-val highlight" id="sim-outcome-val">Transforms fatigue into brand loyalty</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK EXPERIENCE TIMELINE -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle" data-i18n="exp-subtitle">Career Journey</span>
+          <h2 class="section-title" data-i18n="exp-title">Work Experience</h2>
+          <div class="title-underline"></div>
+          <p class="section-lead" data-i18n="exp-lead">
+            Hands-on background in client handling, guest assistance, and service delivery reflecting hotel industry standards.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i class="fa-solid fa-user-check"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-badge" data-i18n="exp1-period">Apr 2024 - Mar 2025</div>
+              <h3 class="timeline-role" data-i18n="exp1-role">Freelance Personal Service</h3>
+              <div class="timeline-company">
+                <i class="fa-solid fa-briefcase"></i>
+                <span data-i18n="exp1-type">Client Relations & Personalized Care</span>
+              </div>
+              <p class="timeline-summary" data-i18n="exp1-summary">
+                Delivered tailored services based on individual client requirements, maintaining high patience, emotional self-regulation, and guest-relation protocols consistent with upscale hotel standards.
+              </p>
+              <ul class="timeline-points">
+                <li data-i18n="exp1-p1">Delivered tailored service based on each client's specific needs, reflecting the personalized approach expected in guest-relation roles within the hospitality industry.</li>
+                <li data-i18n="exp1-p2">Demonstrated patience, emotional control, and professionalism when managing varying personalities, demands, and service expectations.</li>
+                <li data-i18n="exp1-p3">Strengthened guest-handling abilities, problem-solving skills, and service etiquette directly aligned with hotel service standards.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">Personalized Service</span>
+                <span class="tag">Guest Handling</span>
+                <span class="tag">Emotional Intelligence</span>
+                <span class="tag">Service Etiquette</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i class="fa-solid fa-handshake-angle"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-badge" data-i18n="exp2-period">Mar 2023 - May 2023</div>
+              <h3 class="timeline-role" data-i18n="exp2-role">Visitor Assistance Guide</h3>
+              <div class="timeline-company">
+                <i class="fa-solid fa-users"></i>
+                <span data-i18n="exp2-type">Frontline Hospitality & Visitor Orientation</span>
+              </div>
+              <p class="timeline-summary" data-i18n="exp2-summary">
+                Served as the frontline ambassador, welcoming local and international visitors with courtesy, providing bilingual orientation, and ensuring smooth guest flow.
+              </p>
+              <ul class="timeline-points">
+                <li data-i18n="exp2-p1">Welcomed and supported visitors with a courteous demeanor, creating a positive first impression aligned with hospitality standards.</li>
+                <li data-i18n="exp2-p2">Provided clear information and assistance in both English and Indonesian for local and international visitors.</li>
+                <li data-i18n="exp2-p3">Ensured visitors felt respected, guided, and comfortable throughout their visit.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">Bilingual Orientation</span>
+                <span class="tag">First Impressions</span>
+                <span class="tag">Cross-Cultural Communication</span>
+                <span class="tag">Visitor Care</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & RESEARCH SPOTLIGHT -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle" data-i18n="edu-subtitle">Academic Foundations</span>
+          <h2 class="section-title" data-i18n="edu-title">Education & Research</h2>
+          <div class="title-underline"></div>
+          <p class="section-lead" data-i18n="edu-lead">
+            Strong academic distinction in English Education with a specialization in language pragmatics, audience perception, and persuasive communication.
+          </p>
+        </div>
+
+        <div class="education-grid">
+          <!-- Degree Card -->
+          <div class="degree-card">
+            <div class="degree-header">
+              <div class="degree-badge">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span data-i18n="edu-period">Aug 2021 - Oct 2025</span>
+              </div>
+              <div class="gpa-pill">
+                <span class="gpa-lbl">GPA</span>
+                <span class="gpa-val">3.61 / 4.00</span>
+              </div>
+            </div>
+            
+            <h3 class="degree-title" data-i18n="edu-degree">Bachelor of English Education (S.Pd.)</h3>
+            <h4 class="degree-inst">Universitas Suryakancana (UNSUR)</h4>
+            <div class="inst-location">
+              <i class="fa-solid fa-location-dot"></i> Cianjur, West Java, Indonesia
+            </div>
+
+            <p class="degree-desc" data-i18n="edu-desc">
+              Graduated with distinction (GPA 3.61). Intensive curriculum encompassing advanced English linguistics, cross-cultural rhetoric, pedagogical communication, and public address.
+            </p>
+
+            <div class="key-takeaways">
+              <h5 data-i18n="edu-takeaway-lbl">Core Competencies Developed:</h5>
+              <div class="takeaway-item">
+                <i class="fa-solid fa-check-circle"></i>
+                <span data-i18n="edu-t1">Cross-cultural communication and nuanced language subtleties</span>
+              </div>
+              <div class="takeaway-item">
+                <i class="fa-solid fa-check-circle"></i>
+                <span data-i18n="edu-t2">Active listening, public presentation, and audience engagement</span>
+              </div>
+              <div class="takeaway-item">
+                <i class="fa-solid fa-check-circle"></i>
+                <span data-i18n="edu-t3">Pragmatic speech acts (politeness maxims, requests, negotiations)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Thesis Spotlight Card -->
+          <div class="thesis-card">
+            <div class="thesis-header">
+              <span class="thesis-tag"><i class="fa-solid fa-book-open"></i> <span data-i18n="thesis-tag">Undergraduate Thesis Spotlight</span></span>
+              <span class="thesis-field">Pragmatics & Media Psychology</span>
+            </div>
+
+            <h3 class="thesis-title">
+              "Analyzing Persuasive Strategies in Motivational TikTok Content through Pragmatic Perspectives"
+            </h3>
+
+            <div class="thesis-body">
+              <p class="thesis-desc" data-i18n="thesis-desc1">
+                Conducted deep qualitative research on persuasive communication techniques, speech acts, and the pragmatic mechanisms of digital content that shape audience behavior and psychological trust.
+              </p>
+              <p class="thesis-desc" data-i18n="thesis-desc2">
+                Developed a nuanced understanding of how language function directly drives marketing, hospitality branding, and positive guest perception.
+              </p>
+
+              <div class="hospitality-transfer-box">
+                <div class="transfer-title">
+                  <i class="fa-solid fa-lightbulb"></i>
+                  <span data-i18n="thesis-transfer-title">Direct Application to Hospitality:</span>
+                </div>
+                <ul class="transfer-list">
+                  <li data-i18n="thesis-t1"><strong>Guest Rapport:</strong> Utilizing polite speech acts and subtle phrasing to foster warm interpersonal connections.</li>
+                  <li data-i18n="thesis-t2"><strong>De-escalation:</strong> Applying pragmatic empathy principles to turn guest complaints into loyalty.</li>
+                  <li data-i18n="thesis-t3"><strong>Upselling & Concierge:</strong> Framing recommendations persuasively without feeling intrusive or transactional.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS & CERTIFICATIONS -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle" data-i18n="skills-subtitle">Competencies & Verification</span>
+          <h2 class="section-title" data-i18n="skills-title">Skills & Certifications</h2>
+          <div class="title-underline"></div>
+          <p class="section-lead" data-i18n="skills-lead">
+            Certified proficiency in English and Public Speaking, combined with specialized hospitality operational skills.
+          </p>
+        </div>
+
+        <!-- Certifications Highlight Row -->
+        <div class="cert-grid">
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-solid fa-stamp"></i>
+            </div>
+            <div class="cert-content">
+              <div class="cert-validity">2024 - 2025</div>
+              <h3 class="cert-name">TOEFL Official Certification</h3>
+              <div class="cert-score">
+                <span class="score-num">557</span>
+                <span class="score-band" data-i18n="toefl-band">Overall Band Score (B2+ / Advanced Working Proficiency)</span>
+              </div>
+              <p class="cert-desc" data-i18n="toefl-desc">
+                High fluency in spoken and written English, capable of handling international reservations, VIP dialogue, and cross-cultural concierge services.
+              </p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-solid fa-microphone-lines"></i>
+            </div>
+            <div class="cert-content">
+              <div class="cert-validity">2022</div>
+              <h3 class="cert-name" data-i18n="cert-ps-title">Public Speaking Certification</h3>
+              <div class="cert-score">
+                <span class="score-num" data-i18n="cert-ps-badge">Certified</span>
+                <span class="score-band" data-i18n="cert-ps-org">Professional Presentation & Oratory</span>
+              </div>
+              <p class="cert-desc" data-i18n="cert-ps-desc">
+                Trained in vocal projection, poise, stage confidence, and engaging audiences under pressure—ideal for briefing visitors and group coordination.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills Matrix -->
+        <div class="skills-matrix">
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <i class="fa-solid fa-bell-concierge"></i>
+              <h3 data-i18n="cat1-title">Hospitality & Front Office</h3>
+            </div>
+            <div class="skill-bar-group">
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span data-i18n="skill-gh">Guest Handling & Customer Service</span>
+                  <span>95%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width: 95%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span data-i18n="skill-pe">Professional Hospitality Etiquette</span>
+                  <span>92%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width: 92%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span data-i18n="skill-ac">Adaptability & Problem-Solving</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width: 90%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <i class="fa-solid fa-comments"></i>
+              <h3 data-i18n="cat2-title">Communication & Languages</h3>
+            </div>
+            <div class="skill-bar-group">
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span data-i18n="skill-en">English Fluency (TOEFL 557)</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width: 90%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span data-i18n="skill-ps">Public Speaking & Articulation</span>
+                  <span>92%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width: 92%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span data-i18n="skill-prag">Pragmatic & Persuasive Dialogue</span>
+                  <span>88%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width: 88%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <i class="fa-solid fa-bullhorn"></i>
+              <h3 data-i18n="cat3-title">Digital & Emotional Skills</h3>
+            </div>
+            <div class="skill-bar-group">
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span data-i18n="skill-eq">Emotional Composure & Tact</span>
+                  <span>94%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width: 94%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span data-i18n="skill-sm">Social Media & Digital Marketing</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width: 85%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span data-i18n="skill-br">Branding & Audience Perception</span>
+                  <span>88%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width: 88%;"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & INQUIRY SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle" data-i18n="contact-subtitle">Get in Touch</span>
+          <h2 class="section-title" data-i18n="contact-title">Let's Connect & Collaborate</h2>
+          <div class="title-underline"></div>
+          <p class="section-lead" data-i18n="contact-lead">
+            Interested in discussing Front Office opportunities, reservation roles, or hospitality collaborations? Reach out directly.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-info-panel">
+            <div class="info-card">
+              <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="info-details">
+                <span class="info-label" data-i18n="lbl-email">Email Address</span>
+                <a href="mailto:muhammadroihan127@gmail.com" class="info-link">muhammadroihan127@gmail.com</a>
+              </div>
+              <button class="copy-btn" data-copy="muhammadroihan127@gmail.com" title="Copy Email">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="info-details">
+                <span class="info-label" data-i18n="lbl-phone">Phone / WhatsApp</span>
+                <a href="https://wa.me/6289516563430?text=Halo%20Muhammad%20Roihan,%20saya%20tertarik%20dengan%20profil%20hospitality%20Anda." target="_blank" class="info-link">+62 895-1656-3430</a>
+              </div>
+              <button class="copy-btn" data-copy="+6289516563430" title="Copy Phone">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="info-details">
+                <span class="info-label">LinkedIn</span>
+                <a href="http://linkedin.com/in/muhammad-roihan-680ba4341" target="_blank" class="info-link">linkedin.com/in/muhammad-roihan-680ba4341</a>
+              </div>
+              <a href="http://linkedin.com/in/muhammad-roihan-680ba4341" target="_blank" class="copy-btn" title="Open LinkedIn">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="info-details">
+                <span class="info-label" data-i18n="lbl-address">Address</span>
+                <span class="info-text">Rancabali Kulon, Sub Bojongherang, reg Cianjur, West Java</span>
+              </div>
+            </div>
+
+            <div class="download-cv-box">
+              <h4 data-i18n="cv-box-title">Need the Official Resume?</h4>
+              <p data-i18n="cv-box-desc">Download the complete CV in PDF format for recruitment archiving.</p>
+              <a href="assets/Muhammad_Roihan_CV.pdf" target="_blank" download="Muhammad_Roihan_CV.pdf" class="btn btn-gold btn-block">
+                <i class="fa-solid fa-file-arrow-down"></i>
+                <span data-i18n="btn-download-full-cv">Download Muhammad Roihan CV (PDF)</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-panel">
+            <h3 class="form-title" data-i18n="form-title">Send a Direct Message / Invitation</h3>
+            <p class="form-desc" data-i18n="form-desc">Fill out this quick form to send an inquiry or schedule an interview.</p>
+            
+            <form id="contact-form" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-name" data-i18n="form-name-lbl">Your Name / Hotel Name</label>
+                  <input type="text" id="form-name" required placeholder="e.g. Grand Heritage Hotel HR">
+                </div>
+                <div class="form-group">
+                  <label for="form-email" data-i18n="form-email-lbl">Email Address</label>
+                  <input type="email" id="form-email" required placeholder="e.g. hr@luxuryresort.com">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" data-i18n="form-subject-lbl">Subject / Inquiring Role</label>
+                <select id="form-subject" required>
+                  <option value="Front Office Opportunity" data-i18n="opt-1">Front Office / Front Desk Agent Position</option>
+                  <option value="Reservation Agent Opportunity" data-i18n="opt-2">Reservation Agent Position</option>
+                  <option value="Guest Relations Officer" data-i18n="opt-3">Guest Relations Officer Opportunity</option>
+                  <option value="Interview Invitation" data-i18n="opt-4">Interview Invitation</option>
+                  <option value="Other Inquiries" data-i18n="opt-5">Other Inquiries / Networking</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" data-i18n="form-msg-lbl">Message</label>
+                <textarea id="form-message" rows="5" required placeholder="Dear Muhammad Roihan, we would like to invite you..."></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-gold">
+                  <i class="fa-regular fa-paper-plane"></i>
+                  <span data-i18n="btn-send-message">Send Message</span>
+                </button>
+
+                <button type="button" id="whatsapp-quick-btn" class="btn btn-whatsapp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <span>WhatsApp Direct</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="logo-emblem-sm">MR</span>
+          <span class="footer-name">Muhammad Roihan, S.Pd.</span>
+        </div>
+        <p class="footer-tagline" data-i18n="footer-tagline">
+          Elevating Hospitality Standards with Warmth, Precision, and Persuasive Communication.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about" data-i18n="nav-about">About</a>
+        <a href="#experience" data-i18n="nav-experience">Experience</a>
+        <a href="#simulator" data-i18n="nav-simulator">Service Simulator</a>
+        <a href="#education" data-i18n="nav-education">Education</a>
+        <a href="#skills" data-i18n="nav-skills">Skills</a>
+        <a href="#contact" data-i18n="nav-contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2026</span> Muhammad Roihan. <span data-i18n="footer-rights">All rights reserved.</span></p>
+        <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+          <i class="fa-solid fa-chevron-up"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast"></div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
